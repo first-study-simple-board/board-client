@@ -1,0 +1,18 @@
+version: "3"
+services:
+  front:
+    container_name: "study-board"
+    build:
+      context: ../
+      dockerfile: board-docker/Dockerfile
+    ports:
+      - "4030:3000"
+    restart: always
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - ../app:/app
+      - /app/node_modules
+      - /app/.next
+    stdin_open: true
+    tty: true
