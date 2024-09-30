@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@next/font": "^14.2.3",
+    "asana": "^3.0.7",
     "axios": "^1.7.2",
     "class-transformer": "^0.5.1",
     "dayjs": "^1.11.11",
